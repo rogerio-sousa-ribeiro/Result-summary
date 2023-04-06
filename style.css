@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap');
+*{
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+
+/* Estilização da caixa principal */
+
+.principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    height: 100vh;
+}
+
+.principal_container{
+    display: flex;
+    width: 45%;
+}
+
+/* Estilização da caixa com o Resultado */
+
+.principal_container_result{
+    width: 60%;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 1));
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding: 30px;
+    box-sizing: border-box;
+    border: 1px dotted tomato;
+    border-radius: 20px;
+    
+}
+
+.result_titulo{
+    color: hsl(224, 30%, 27%);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.result_result{
+    border-radius: 50%;
+    background-color: aquamarine;
+    padding: 60px;
+    text-align: center;
+    background-image: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+}
+
+.result_result_valor{
+    font-size: 50px;
+    font-weight: 700;
+    color:hsl(0, 0%, 100%) ;
+}
+
+.result_result_porcentagem{
+    color: hsl(224, 30%, 27%);
+    font-size: 16px;
+}
+
+.result_avaliacao{
+    font-size: 24px;
+    font-weight: 700;
+    color: hsl(241, 100%, 89%);
+}
+
+.result_conteudo{
+    color: hsl(241, 100%, 89%);
+    font-size: 18px;
+    text-align: center;
+}
+
+
+/* Estilização da caixa Summary */
+
+.principal_container_sumary{
+    background-color: hsl(0, 0%, 100%);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 50%;
+}
+
+.summary_titulo{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.summary_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.summary_container_container{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.summary_container_botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 35px;
+}
+
+.summary_container_botao_botao{    
+    text-decoration: none;
+    color: white;
+    
+}
+
+/* Estilização Background Color nas caixas de resultados */
+.summary_container_laranja{
+    color: hsl(0, 100%, 67%);
+    background-color:hsl(0, 100%, 67%, 0.1) ;
+}
+.summary_container_amarelo{
+    color: hsl(39, 100%, 56%);
+    background-color:hsl(39, 100%, 56%, 0.1) ;
+}
+.summary_container_verde{
+    color: hsl(166, 100%, 37%);
+    background-color:hsl(166, 100%, 37%, 0.1) ;
+}
+.summary_container_azul{
+    color: hsl(234, 85%, 45%);
+    background-color:hsl(234, 85%, 45%, 0.1) ;
+}
