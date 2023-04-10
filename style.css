@@ -27,8 +27,7 @@ body{
 
 .principal_container_result{
     width: 60%;
-    background-image: linear-gradient(to bottom,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
-    opacity: 0.79;
+    background-image: linear-gradient(to top,hsl(241, 81%, 54%),hsla(256, 72%, 46%));
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -49,9 +48,8 @@ body{
 
 .result_result{
     border-radius: 50%;
-    background-color: aquamarine;
     padding: 40px;
-    background-image: linear-gradient(to bottom,hsl(252, 97%, 74%),hsl(241, 81%, 54%));
+    background-image: linear-gradient(to bottom,hsla(256, 72%, 46%),hsla(241, 72%, 46%));
     display: flex;
     flex-direction: column;
     justify-content: space-between;
